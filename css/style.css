@@ -53,6 +53,9 @@ ul {
   height: 3px;
   background-color: #093957;
 }
+.enindex-page .page-header__wrapper::after {
+  background-color: #1c4a1f;
+}
 .page-header__avatar {
   padding-top: 20px;
   padding-bottom: 15px;
@@ -67,6 +70,16 @@ ul {
   margin-bottom: 15px;
   font-size: 26px;
   text-transform: uppercase;
+}
+.page-header__icon:hover {
+  fill: #093957;
+}
+.page-header__icon:active,
+.page-header__icon:focus {
+  fill: #707070;
+}
+.enindex-page .page-header__icon:hover {
+  fill: #1c4a1f;
 }
 .page-header__social {
   width: 25%;
@@ -137,8 +150,26 @@ ul {
   height: 2px;
   background-color: #093957;
 }
+.enindex-page .page-main__key-information::after,
+.enindex-page .page-main__layout::after,
+.enindex-page .page-main__courses::after,
+.enindex-page .page-main__languages::after,
+.enindex-page .page-main__experience::after,
+.enindex-page .page-main__education::after {
+  background-color: #1c4a1f;
+}
 .page-main__layout-item {
   margin-bottom: 16px;
+}
+.page-main__link:hover {
+  color: #093957;
+}
+.page-main__link:active,
+.page-main__link:focus {
+  color: #707070;
+}
+.enindex-page .page-main__link:hover {
+  color: #1c4a1f;
 }
 .page-main__courses-item {
   display: flex;
@@ -170,4 +201,14 @@ ul {
   width: 25%;
   display: flex;
   justify-content: space-between;
+}
+.page-footer__icon:hover {
+  fill: #093957;
+}
+.page-footer__icon:active,
+.page-footer__icon:focus {
+  fill: #707070;
+}
+.enindex-page .page-footer__icon:hover {
+  fill: #1c4a1f;
 }
